@@ -1,0 +1,37 @@
+{
+  "name": "multi-convert",
+  "version": "0.0.0",
+  "description": "With the call of one function, convert data into all its various forms. For example, convert a file into an ArrayBuffer, Buffer, Base64, Data URL, Uint8Array, and more! All in one function call.",
+  "main": "multi-convert.js",
+  "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --trailing-comma=none --write *.js",
+    "test": "npx ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/multi-convert.git"
+  },
+  "keywords": [
+    "arraybuffer",
+    "base64",
+    "buffer",
+    "content",
+    "dataurl",
+    "datauri",
+    "uint8array",
+    "test"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/multi-convert/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/multi-convert#readme",
+  "dependencies": {
+    "fix-buffer": "0.0.0",
+    "is-typed-array": "^1.1.3",
+    "to-typed-arrays": "0.0.1",
+    "toab": "^1.0.1"
+  },
+  "devDependencies": {}
+}
