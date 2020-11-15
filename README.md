@@ -7,7 +7,7 @@ npm install multi-convert
 ```
 
 # usage
-```bash
+```js
 const fs = require("fs");
 const multiConvert = require("multi-convert");
 
