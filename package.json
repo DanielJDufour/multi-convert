@@ -1,6 +1,6 @@
 {
   "name": "multi-convert",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "With the call of one function, convert data into all its various forms. For example, convert a file into an ArrayBuffer, Buffer, Base64, Data URL, Uint8Array, and more! All in one function call.",
   "main": "multi-convert.js",
   "scripts": {
