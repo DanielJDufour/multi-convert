@@ -7,7 +7,8 @@ for (let i = 0; i <= 255; i++) {
 }
 
 test("test array buffers", async t => {
-  const output = multiconvert({ data: random_numbers });
+  const output = multiconvert({ data: random_numbers.buffer });
+  console.log(output);
   t.is(output.int8Array.byteLength, 256);
   t.is(output.uint8Array.byteLength, 256);
   t.is(output.uint8ClampedArray.byteLength, 256);

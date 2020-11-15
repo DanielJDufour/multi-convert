@@ -26,8 +26,11 @@ function multiconvert({ data, debug = false }) {
     } catch (error) {}
   } else if (typeof data === "object") {
     try {
-      result.json = JSON.stringify(data);
-      result.object = data;
+      const json = JSON.stringify(data);
+      if (json !== "{}") {
+        result.json = JSON.stringify(data);
+        result.object = data;
+      }
     } catch (error) {}
   }
 
